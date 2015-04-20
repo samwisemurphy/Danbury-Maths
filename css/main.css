@@ -1,3 +1,135 @@
+body {
+  background-color: #ECECEC !important;
+}
+#dmt {
+  color: white;
+  padding-top: 250px;
+  margin-top: 0px;
+  font-size: 70px;
+  text-shadow: 2px 2px black;
+}
+
+
+.logo-pad {
+  padding-top: 2px !important;
+/*  margin-top: 1px;
+*/}
+
+.title-img {
+  text-shadow: 2px 2px #95a5a6;
+  color: white !important;
+}
+
+.title-links {
+  text-shadow: 1px 1px grey;
+  color: white !important;
+}
+
+
+#header {
+  /*width: 100%;*/
+  background-color: #fff;
+  opacity: .85;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.about {
+  border: solid 1px black;
+}
+
+.pointer-right {
+  "content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -15px;
+  top: 45px;
+}
+
+
+
+.pointer-left {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -15px;
+  top: 45px;
+}
+
+
+.text-align-right {
+  text-align: right;
+}
+
+.about-text {
+  border: solid 1px black;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-top-40 {
+  margin-bottom: 40px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.profile-image {
+  border-radius: 150px;
+  padding-bottom: 10px;
+}
+
+.test-blue {
+  background-color: blue;
+}
+
+.test-red {
+  background-color: red;
+}
+
+
+.black-text {
+  color: black;
+  font-family: Helvetica Neue;
+}
+
+
+.sam-weston {
+  height: 400px;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
 .green {
 	color: green;
 	height: 400px;
@@ -11,6 +143,19 @@ body {
 }
 
 
+.soften {
+  border-radius-bottom: 10px;
+}
+
+.smoke {
+  background-color: #ECECEC !important;
+}
+
+
+.border-top {
+  border: solid 2px #DADFE1;
+}
+
 #fuck {
 	/*height: 80%; 
 	width: 80%;*/
@@ -19,16 +164,32 @@ body {
 	
 }
 
-.top-image {
+
+#message {
+  border: 1px solid #ccc;
+}
+
+
+.custom-nav {
+  /*padding-bottom: 0;*/
+  margin-bottom: 1px;
+  border: 0;
+}
+
+.width {
   width: 100%;
-  height: 400px;
-  background-image: url("../images/learn.jpg");
+}
+.top-image {
+  
+  height: 600px;
+  background-image: url("../images/chalk.jpg");
   background-size: 100%;
   background-position: 0px -50px;
   background-repeat: no-repeat;
   text-align: center;
   vertical-align: middle;
   margin-top: 0;
+  padding-top: 0;
 }
 
 #top-text {
@@ -44,4 +205,47 @@ body {
 #top-maths {
 	color: white;
 	margin-top: 0px;
+}
+
+
+textarea {
+  height: 200px;
+  width:300px;
+}
+
+
+.testimonials-top {
+  border-top: solid 2px #DADFE1;
+  border-right: solid 2px #DADFE1;
+  border-left: solid 2px #DADFE1;
+}
+
+.testimonials-bot {
+  border-bottom: solid 2px #DADFE1;
+  border-right: solid 2px #DADFE1;
+  border-left: solid 2px #DADFE1;
+}
+
+
+.bubble {
+  
+  
+}
+.bubble-2 {
+  position: relative;
+  width: 250px;
+  height: 120px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.margin-bottom-big {
+  margin-bottom: 400px
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
 }
