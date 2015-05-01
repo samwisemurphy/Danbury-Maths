@@ -1,19 +1,17 @@
-body {
-  background-color: #ECECEC !important;
-}
-#dmt {
-  color: white;
-  padding-top: 250px;
-  margin-top: 0px;
-  font-size: 70px;
-  text-shadow: 2px 2px black;
+.border-radius {
+  border-radius: 25px;
 }
 
 
-.logo-pad {
-  padding-top: 2px !important;
-/*  margin-top: 1px;
-*/}
+.text-shadow{
+  text-shadow: 2px #ECECEC;
+}
+
+.test {
+  height: 70px;
+  background-color: #101010;
+}
+
 
 .title-img {
   text-shadow: 2px 2px #95a5a6;
@@ -21,7 +19,6 @@ body {
 }
 
 .title-links {
-  text-shadow: 1px 1px grey;
   color: white !important;
 }
 
@@ -36,9 +33,339 @@ body {
   text-align: left;
 }
 
-.about {
-  border: solid 1px black;
+
+
+.text-align-right {
+  text-align: right;
 }
+
+
+.black-text {
+  color: black;
+  font-family: Helvetica Neue;
+}
+
+
+.sam-weston {
+  height: 600px;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+.soften {
+  border-radius-bottom: 10px;
+}
+
+
+
+
+
+#message {
+  border: 1px solid #ccc;
+}
+
+
+
+
+.width {
+  width: 100%;
+}
+
+
+#top-text {
+	z-index: 40;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+    text-align: center;
+}
+
+
+.testimonial-colour {
+
+  background-color: #2c3e50;
+
+}
+
+.footer-ad {
+  color: white;
+}
+
+.footer-colour {
+  background-color: #2c3e50;
+  height: 150px;
+}
+
+
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+             COLOURS           
+
+******************************************************************************************************************
+******************************************************************************************************************/
+
+/*body {
+  background-color: #22A7F0 !important;
+}*/
+
+.black {
+   background-color: black;
+}
+
+.blue {
+  background-color: #22A7F0;
+}
+
+
+.smoke {
+  background-color: #ECECEC !important;
+}
+
+.white {
+  background-color: white;
+}
+
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: #101010;
+}
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              PADDING AND MARGIN            
+
+******************************************************************************************************************
+******************************************************************************************************************/
+.pad-left-4 {
+  padding-left: 4px;
+}
+
+
+
+.pad-top-0 {
+  padding-top: 0px;
+}
+
+
+.marg-top-10 {
+  margin-top: 10px;
+}
+
+
+#pad {
+  padding-top: 8px;
+  border: none;
+}
+
+.margin-bottom-big {
+  margin-bottom: 400px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0px;
+}
+
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-0{
+  margin-top: 0px !important;
+}
+
+
+.padding-top-0 {
+  padding-top: 0px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
+
+.marg-r-0 {
+  margin-right: 0px !important;
+}
+
+.marg-l-0 {
+  margin-left: -10px !important;
+}
+
+.pad-l-100 {
+  padding-left: 100px;
+}
+
+.mar-l-80 {
+  margin-left: 80px;
+}
+
+
+.pad-l-0 {
+  padding-left: 0px !important;
+}
+
+.pad-r-0 {
+  padding-right: 0px !important;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+
+.padding-bottom-0 {
+  padding-bottom: 0px;
+}
+
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              NAV BAR
+
+******************************************************************************************************************
+******************************************************************************************************************/
+
+
+.logo-pad {
+  padding-top: 2px !important;
+/*  margin-top: 1px;
+*/}
+
+
+.custom-nav {
+  /*padding-bottom: 0;*/
+  margin-bottom: -3px;
+  border: 0;
+}
+
+.danbury-logo {
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              HEADER IMAGE
+
+******************************************************************************************************************
+******************************************************************************************************************/
+
+
+.top-image {
+  
+  height: 600px;
+  background-image: url("../images/chalk.jpg");
+  background-size: 100%;
+  background-position: 0px -50px;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+#dmt {
+  color: white;
+  /*padding-top: 250px;*/
+  margin-top: -50px !important;
+  font-size: 70px;
+  text-shadow: 2px 2px black;
+}
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              ABOUT ME SECTION         
+
+******************************************************************************************************************
+******************************************************************************************************************/
+
+
+.profile-image {
+  border-radius: 150px;
+  padding-bottom: 10px;
+}
+
+
+.about {
+  width: 200px;
+}
+
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              TESTIMONALS       
+
+******************************************************************************************************************
+******************************************************************************************************************/
 
 .pointer-right {
   "content: '';
@@ -69,168 +396,6 @@ body {
 }
 
 
-.text-align-right {
-  text-align: right;
-}
-
-.about-text {
-  border: solid 1px black;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px;
-}
-
-.margin-top-40 {
-  margin-bottom: 40px;
-}
-
-.padding-top-20 {
-  padding-top: 20px;
-}
-
-.padding-bottom-20 {
-  padding-bottom: 20px;
-}
-
-.padding-top-40 {
-  padding-top: 40px;
-}
-
-.margin-right {
-  margin-right: 30px;
-}
-
-.profile-image {
-  border-radius: 150px;
-  padding-bottom: 10px;
-}
-
-.test-blue {
-  background-color: blue;
-}
-
-.test-red {
-  background-color: red;
-}
-
-
-.black-text {
-  color: black;
-  font-family: Helvetica Neue;
-}
-
-
-.sam-weston {
-  height: 400px;
-
-}
-
-.text-center {
-  text-align: center;
-}
-
-.green {
-	color: green;
-	height: 400px;
-}
-
-body {
-}
-
-.center {
-	text-align: center;
-}
-
-
-.soften {
-  border-radius-bottom: 10px;
-}
-
-.smoke {
-  background-color: #ECECEC !important;
-}
-
-
-.border-top {
-  border: solid 2px #DADFE1;
-}
-
-#fuck {
-	/*height: 80%; 
-	width: 80%;*/
-	background-color: none;
-	margin-top:  10px;
-	
-}
-
-
-#message {
-  border: 1px solid #ccc;
-}
-
-
-.custom-nav {
-  /*padding-bottom: 0;*/
-  margin-bottom: 1px;
-  border: 0;
-}
-
-.width {
-  width: 100%;
-}
-.top-image {
-  
-  height: 600px;
-  background-image: url("../images/chalk.jpg");
-  background-size: 100%;
-  background-position: 0px -50px;
-  background-repeat: no-repeat;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-#top-text {
-	z-index: 40;
-    color:white;
-    font-size:24px;
-    font-weight:bold;
-    left:150px;
-    top:350px;
-    text-align: center;
-}
-
-#top-maths {
-	color: white;
-	margin-top: 0px;
-}
-
-
-textarea {
-  height: 200px;
-  width:300px;
-}
-
-
-.testimonials-top {
-  border-top: solid 2px #DADFE1;
-  border-right: solid 2px #DADFE1;
-  border-left: solid 2px #DADFE1;
-}
-
-.testimonials-bot {
-  border-bottom: solid 2px #DADFE1;
-  border-right: solid 2px #DADFE1;
-  border-left: solid 2px #DADFE1;
-}
-
-
-.bubble {
-  
-  
-}
 .bubble-2 {
   position: relative;
   width: 250px;
@@ -242,10 +407,27 @@ textarea {
   border-radius: 10px;
 }
 
-.margin-bottom-big {
-  margin-bottom: 400px
+
+
+/******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
+              GET IN TOUCH      
+
+******************************************************************************************************************
+******************************************************************************************************************/
+
+textarea {
+  height: 200px;
+  width:300px;
 }
 
-.margin-bottom-10 {
-  margin-bottom: 10px;
-}
+
+
+
+
+
+
+
+
