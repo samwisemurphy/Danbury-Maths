@@ -100,7 +100,6 @@
 	</div>
 </div>	<!-- END OF CONTAINER -->
 	
-	
 
 <div class="test text-white">
 	<div class=" text-center margin-bottom-20">

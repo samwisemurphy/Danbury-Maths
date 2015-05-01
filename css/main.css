@@ -3,8 +3,18 @@
 }
 
 
+
 .text-shadow{
   text-shadow: 2px #ECECEC;
+}
+
+#dmt {
+  color: white;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 70px;
+  text-shadow: 2px 2px black;
+
 }
 
 .test {
